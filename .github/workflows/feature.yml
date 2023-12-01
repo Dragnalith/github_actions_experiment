@@ -1,5 +1,5 @@
 name: Feature Workflow
-on: workflow_dispatch
+on: [push]
 jobs:
   Main:
     runs-on: ubuntu-latest
