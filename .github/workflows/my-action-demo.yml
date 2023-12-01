@@ -8,4 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "Hello, World!"
+    - name: "Display Info"
+      run: echo "ref = ${{ github.ref }}, sha = ${{ github.sha }}"
+    - name: "Print Message"
+      run: echo "Hello from 'main'"
