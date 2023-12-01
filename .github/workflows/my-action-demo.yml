@@ -1,7 +1,9 @@
 name: Minimal Workflow (main)
 on: 
   push:
-    branches: *
+    branches:
+    - '*'
+    - '**'
 jobs:
   build:
     runs-on: ubuntu-latest
