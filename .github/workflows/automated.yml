@@ -1,4 +1,4 @@
-name: Minimal Workflow (main)
+name: Automated Workflow
 on: 
   push:
     branches:
