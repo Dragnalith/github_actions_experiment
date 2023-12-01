@@ -1,3 +1,7 @@
 name: Main Workflow
-on: 
-  workflow_dispatch
+on: workflow_dispatch
+jobs:
+  Main:
+    steps:
+    - name: Print Message
+      run: echo "Hello from Main Workflow!"
