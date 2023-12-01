@@ -1,4 +1,4 @@
-name: Automated Workflow
+name: Automatic Workflow
 on: 
   push:
     branches: 'main'
