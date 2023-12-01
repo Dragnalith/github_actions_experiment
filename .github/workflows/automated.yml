@@ -1,7 +1,9 @@
 name: Automated Workflow
 on: 
   push:
-    branches: 'main'
+    branches: 
+      - 'main'
+      - 'feature'
 jobs:
   build:
     runs-on: ubuntu-latest
