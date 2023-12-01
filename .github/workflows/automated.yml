@@ -1,9 +1,9 @@
-name: Minimal Workflow (main)
+name: Automated Workflow
 on: 
   push:
     branches:
-      - main
-      - fork
+    - '*'
+    - '**'
 jobs:
   build:
     runs-on: ubuntu-latest
