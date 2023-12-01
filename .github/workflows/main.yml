@@ -1,8 +1,0 @@
-name: Main Workflow
-on: workflow_dispatch
-jobs:
-  Main:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Print Message
-      run: echo "Hello from Main Workflow!"

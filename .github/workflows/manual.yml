@@ -1,0 +1,10 @@
+name: Manual Workflow
+on: workflow_dispatch
+jobs:
+  Main:
+    runs-on: ubuntu-latest
+    steps:
+    - name: "Display Info"
+      run: echo "ref = ${{ github.ref }}, sha = ${{ github.sha }}"
+    - name: Print Message
+      run: echo "Hello World"
